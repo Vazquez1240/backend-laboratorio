@@ -7,7 +7,7 @@ drf_router = routers.DefaultRouter()
 app_name = 'apirest'
 
 urlpatterns = [
-    path('users/', include('usuarios.urls')),
+    path('users/', include('users.urls')),
 
     path('', include(drf_router.urls)),
 ]
